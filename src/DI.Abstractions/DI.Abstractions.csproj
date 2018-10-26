@@ -4,7 +4,7 @@
     <Description>Abstractions for dependency injection.
 Commonly used types:
 Microsoft.Extensions.DependencyInjection.IServiceCollection</Description>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
     <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
     <RootNamespace>Microsoft.Extensions.DependencyInjection.Abstractions</RootNamespace>
     <DefineConstants>$(DefineConstants);ActivatorUtilities_In_DependencyInjection</DefineConstants>
